@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 100px;
+}
+
+.field { 
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+
+.excel {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.snakeBody {
+    background:  url(img/scale.jpg);
+    background-size: contain; 
+    border-radius: 30%;
+}
+
+.head {
+    background:  url(img/cat.jpg);
+    background-size: contain; 
+    border-radius: 30%;
+}
+
+.mouse {
+    background:  url(img/mouse.jpg);
+    background-size: contain; 
+    
+}
